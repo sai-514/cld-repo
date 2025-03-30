@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main(){
+func main() {
 	Now := time.Now()
 	hr, min, sec := Now.Clock()
 	fmt.Println("Year   :=", Now.Year())
@@ -14,9 +14,4 @@ func main(){
 	fmt.Println("Hour   :=", hr)
 	fmt.Println("Min    :=", min)
 	fmt.Println("Sec    :=", sec)
-	year, month, day := Now.Date()
-	fmt.Println("Year    :=", year)
-	fmt.Println("Month   :=", month)
-	fmt.Println("Day    :=", day)
-
 }
